@@ -10,7 +10,7 @@ I enjoy understanding systems close to the hardware and care about careful bench
 
 - **[FindTensor](https://findtensor.com)** — an ongoing exploration of compiler and runtime techniques for LLM inference.
 - **[Lean formalizations](https://github.com/SamMausberg/lean-formalizations)** — formalization work in Lean 4 and mathlib around several open problems in combinatorics.
-- **GPU architecture research** — work with Professor [Tor Aamodt](https://ece.ubc.ca/tor-aaamodt/) at UBC ECE on modeling newer GPU architectures in GPGPU-Sim.
+- **GPU architecture research** — worked with Professor [Tor Aamodt](https://ece.ubc.ca/tor-aaamodt/) at UBC ECE on modeling newer GPU architectures in GPGPU-Sim.
 
 ## Tools I've worked with
 
