@@ -27,6 +27,7 @@ p=argparse.ArgumentParser()
 p.add_argument("--preview",action="store_true")
 p.add_argument("--final",action="store_true")
 p.add_argument("--banner",action="store_true")
+p.add_argument("--build-only",action="store_true")
 p.add_argument("--reference",type=Path,default=Path(__file__).parent/"cover-reference.png")
 args=p.parse_args(sys.argv[sys.argv.index("--")+1:] if "--" in sys.argv else [])
 bpy.ops.object.select_all(action="SELECT")
@@ -386,4 +387,5 @@ scene['head_model_source']='https://threejs.org/examples/models/gltf/LeePerrySmi
 suffix='banner' if args.banner else 'portrait'
 scene.render.filepath=str(BUILD/f"serpent-{suffix}-preview.png" if args.preview else ASSETS/f"serpent-{suffix}.png")
 bpy.ops.wm.save_as_mainfile(filepath=str(BUILD/"serpent-study.blend"),compress=True)
-bpy.ops.render.render(write_still=True)
+if not args.build_only:
+    bpy.ops.render.render(write_still=True)

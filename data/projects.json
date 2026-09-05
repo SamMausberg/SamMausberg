@@ -9,7 +9,7 @@
     "author": "Gene Wolfe",
     "x": 18.5,
     "y": 26,
-    "description": "A searchable index of GPU kernels and benchmark evidence.",
+    "description": "GPU kernels indexed by operation, shape, dtype, and hardware.",
     "box": [
       0,
       0,
@@ -29,7 +29,7 @@
     "author": "Gene Wolfe · after Sam Weber",
     "x": 54,
     "y": 24,
-    "description": "CUDA C++ and CuTe DSL implementations for SOL-ExecBench.",
+    "description": "CUDA C++ and CuTe DSL kernels for SOL-ExecBench.",
     "box": [
       600,
       0,
@@ -49,7 +49,7 @@
     "author": "Marcel Proust",
     "x": 83.5,
     "y": 32,
-    "description": "GPU time per request, studied across 91 published vLLM runs.",
+    "description": "GPU time per request across 91 published vLLM runs.",
     "box": [
       1200,
       0,
@@ -64,12 +64,12 @@
     "key": "smollm2",
     "name": "SmolLM2 conformance",
     "repo": "smollm2-cpu-conformance",
-    "scene": "All the world was a relic",
+    "scene": "The shore",
     "book": "The Book of the New Sun",
     "author": "Gene Wolfe",
     "x": 14,
     "y": 78,
-    "description": "CPU numerical checks for full-sequence and KV-cache inference.",
+    "description": "CPU checks for full-sequence and KV-cache inference.",
     "box": [
       0,
       550,
@@ -89,7 +89,7 @@
     "author": "Gene Wolfe · after Sam Weber",
     "x": 55,
     "y": 83,
-    "description": "A process-isolated decoder reference running on CPUs.",
+    "description": "A CPU reference for process-isolated decoder execution.",
     "box": [
       600,
       550,
@@ -109,7 +109,7 @@
     "author": "José Donoso",
     "x": 82,
     "y": 76,
-    "description": "My fork of FlashInfer, a kernel library for LLM serving.",
+    "description": "My fork of FlashInfer.",
     "box": [
       1200,
       550,

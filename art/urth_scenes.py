@@ -25,6 +25,7 @@ p = argparse.ArgumentParser()
 p.add_argument('--scene', choices=['matachin', 'shore', 'combray', 'casa'], required=True)
 p.add_argument('--preview', action='store_true')
 p.add_argument('--final', action='store_true')
+p.add_argument('--build-only', action='store_true')
 args = p.parse_args(sys.argv[sys.argv.index('--')+1:])
 rng = random.Random(1931)
 bpy.ops.object.select_all(action='SELECT')
@@ -515,4 +516,5 @@ if args.scene in ['matachin','shore']:s['work']='The Book of the New Sun / Gene 
 s['geometry']='Procedural geometry and materials authored for this profile study.'
 s.render.filepath=str(BUILD/(args.scene+'-preview.png') if args.preview else ASSETS/(args.scene+'.png'))
 bpy.ops.wm.save_as_mainfile(filepath=str(BUILD/(args.scene+'.blend')),compress=True)
-bpy.ops.render.render(write_still=True)
+if not args.build_only:
+    bpy.ops.render.render(write_still=True)
