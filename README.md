@@ -27,8 +27,7 @@ I also worked with Professor [Tor Aamodt](https://ece.ubc.ca/tor-aaamodt/) at UB
 <details>
 <summary>Books</summary>
 
-*The Book of the New Sun* is my favorite. I love miserable books.
-
+*The Book of the New Sun* is my favorite.
 
 - **Gene Wolfe:** *The Book of the Long Sun*, *The Book of the Short Sun*, *Peace*.
 - **José Donoso:** *The Obscene Bird of Night*.
