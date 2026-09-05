@@ -11,5 +11,3 @@ Made in Blender. The layouts are interpretations.
 Portrait base: Lee Perry-Smith / I-R Entertainment Ltd., [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/); scaled, smoothed and recolored. [Model](https://github.com/keijiro/InfiniteScan).
 
 [Scenes](urth_scenes.py) · [Portrait](serpent_study.py) · [Composition](compose_gallery.py) · [Rendering](finalize_scenes.py)
-
-Contribution lights refresh daily from [GitHub](https://github.com/SamMausberg?tab=overview). [Updater](update_contributions.py) · [Workflow](../.github/workflows/update-contributions.yml) · [Data](../data/contributions.json).
