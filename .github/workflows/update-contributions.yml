@@ -1,0 +1,40 @@
+name: Refresh contribution artwork
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'art/update_contributions.py'
+      - '.github/workflows/update-contributions.yml'
+  schedule:
+    - cron: '37 7 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: contribution-artwork
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.12'
+      - name: Fetch the real GitHub calendar and validate the totals
+        run: python art/update_contributions.py --username SamMausberg
+      - name: Save the refreshed artwork
+        run: |
+          git add assets/contributions.svg data/contributions.json
+          if git diff --cached --quiet; then
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Refresh contribution artwork'
+          git push

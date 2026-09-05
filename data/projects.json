@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "key": "gpgpu-sim",
+    "name": "GPGPU-Sim",
+    "repo": "gpgpu-sim_distribution",
+    "scene": "Matachin Tower",
+    "book": "The Book of the New Sun",
+    "author": "Gene Wolfe",
+    "x": 18.5,
+    "y": 26,
+    "description": "GPU architecture simulation. My fork of GPGPU-Sim.",
+    "box": [
+      0,
+      0,
+      600,
+      550
+    ],
+    "url": "https://github.com/SamMausberg/gpgpu-sim_distribution",
+    "tile": "assets/project-01.jpg"
+  },
+  {
+    "id": 2,
+    "key": "kernelindex",
+    "name": "KernelIndex",
+    "repo": "KernelIndex",
+    "scene": "The serpent portrait",
+    "book": "The Book of the New Sun",
+    "author": "Gene Wolfe · after Sam Weber",
+    "x": 54,
+    "y": 24,
+    "description": "A searchable index of GPU kernels and benchmark evidence.",
+    "box": [
+      600,
+      0,
+      1200,
+      550
+    ],
+    "url": "https://github.com/SamMausberg/KernelIndex",
+    "tile": "assets/project-02.jpg"
+  },
+  {
+    "id": 3,
+    "key": "tensor-parallel",
+    "name": "Tensor parallel reference",
+    "repo": "tensor-parallel-reference",
+    "scene": "Combray in a cup of tea",
+    "book": "In Search of Lost Time",
+    "author": "Marcel Proust",
+    "x": 83.5,
+    "y": 32,
+    "description": "A process-isolated decoder reference running on CPUs.",
+    "box": [
+      1200,
+      0,
+      1800,
+      550
+    ],
+    "url": "https://github.com/SamMausberg/tensor-parallel-reference",
+    "tile": "assets/project-03.jpg"
+  },
+  {
+    "id": 4,
+    "key": "h100-estimator",
+    "name": "H100 serving estimator",
+    "repo": "h100-serving-estimator",
+    "scene": "All the world was a relic",
+    "book": "The Book of the New Sun",
+    "author": "Gene Wolfe",
+    "x": 14,
+    "y": 78,
+    "description": "GPU time per request, studied across 91 published vLLM runs.",
+    "box": [
+      0,
+      550,
+      600,
+      1100
+    ],
+    "url": "https://github.com/SamMausberg/h100-serving-estimator",
+    "tile": "assets/project-04.jpg"
+  },
+  {
+    "id": 5,
+    "key": "smollm2",
+    "name": "SmolLM2 conformance",
+    "repo": "smollm2-cpu-conformance",
+    "scene": "The serpent at the throat",
+    "book": "The Book of the New Sun",
+    "author": "Gene Wolfe · after Sam Weber",
+    "x": 55,
+    "y": 83,
+    "description": "CPU numerical checks for full-sequence and KV-cache inference.",
+    "box": [
+      600,
+      550,
+      1200,
+      1100
+    ],
+    "url": "https://github.com/SamMausberg/smollm2-cpu-conformance",
+    "tile": "assets/project-05.jpg"
+  },
+  {
+    "id": 6,
+    "key": "b200-kernels",
+    "name": "B200 kernels",
+    "repo": "sol-execbench-b200-kernels",
+    "scene": "The courtyard of the Casa",
+    "book": "The Obscene Bird of Night",
+    "author": "José Donoso",
+    "x": 82,
+    "y": 76,
+    "description": "CUDA C++ and CuTe DSL implementations for SOL-ExecBench.",
+    "box": [
+      1200,
+      550,
+      1800,
+      1100
+    ],
+    "url": "https://github.com/SamMausberg/sol-execbench-b200-kernels",
+    "tile": "assets/project-06.jpg"
+  }
+]

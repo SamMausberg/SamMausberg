@@ -1,21 +1,56 @@
-# Hi, I'm Sam.
+# Sam Mausberg
 
-I'm a systems developer in Vancouver interested in GPU computing, AI, and mathematics.
+GPU systems, compilers, and mathematics. Based in Vancouver.
 
-I'm currently working on [FindTensor](https://findtensor.com), an experimental compiler and runtime project for LLM inference.
+I'm building [FindTensor](https://findtensor.com), an experimental compiler and runtime for LLM inference.
 
-I enjoy understanding systems close to the hardware and care about careful benchmarking, reproducible results, and correctness.
+<p align="center">
+<a href="https://github.com/SamMausberg/gpgpu-sim_distribution" title="GPGPU-Sim"><img src="assets/project-01.jpg" alt="1. GPGPU-Sim — Matachin Tower" width="33%"></a><a href="https://github.com/SamMausberg/KernelIndex" title="KernelIndex"><img src="assets/project-02.jpg" alt="2. KernelIndex — The serpent portrait" width="33%"></a><a href="https://github.com/SamMausberg/tensor-parallel-reference" title="Tensor parallel reference"><img src="assets/project-03.jpg" alt="3. Tensor parallel reference — Combray in a cup of tea" width="33%"></a><br>
+<a href="https://github.com/SamMausberg/h100-serving-estimator" title="H100 serving estimator"><img src="assets/project-04.jpg" alt="4. H100 serving estimator — All the world was a relic" width="33%"></a><a href="https://github.com/SamMausberg/smollm2-cpu-conformance" title="SmolLM2 conformance"><img src="assets/project-05.jpg" alt="5. SmolLM2 conformance — The serpent at the throat" width="33%"></a><a href="https://github.com/SamMausberg/sol-execbench-b200-kernels" title="B200 kernels"><img src="assets/project-06.jpg" alt="6. B200 kernels — The courtyard of the Casa" width="33%"></a>
+</p>
 
-## A few things I've worked on
+<a href="https://github.com/SamMausberg?tab=overview"><img src="assets/contributions.svg" alt="My real GitHub contribution history, drawn as seven woven strands of lights" width="100%"></a>
 
-- **[FindTensor](https://findtensor.com)** — an ongoing exploration of compiler and runtime techniques for LLM inference.
-- **[Lean formalizations](https://github.com/SamMausberg/lean-formalizations)** — formalization work in Lean 4 and mathlib around several open problems in combinatorics.
-- **GPU architecture research** — worked with Professor [Tor Aamodt](https://ece.ubc.ca/tor-aaamodt/) at UBC ECE on modeling newer GPU architectures in GPGPU-Sim.
+<sub>The pictures open repositories. Blender scenes from Wolfe, Proust, and Donoso; portrait after Sam Weber. <a href="art/README.md">Scenes &amp; source</a>. Contribution lights refresh daily from GitHub.</sub>
 
-## Tools I've worked with
+## Work
 
-Python, Rust, C++, CUDA, PTX, NCCL, Lean 4, PyTorch, vLLM, Bazel, and Linux.
+1. **[GPGPU-Sim](https://github.com/SamMausberg/gpgpu-sim_distribution)** — GPU architecture simulation. My fork of GPGPU-Sim.
+2. **[KernelIndex](https://github.com/SamMausberg/KernelIndex)** — A searchable index of GPU kernels and benchmark evidence.
+3. **[Tensor parallel reference](https://github.com/SamMausberg/tensor-parallel-reference)** — A process-isolated decoder reference running on CPUs.
+4. **[H100 serving estimator](https://github.com/SamMausberg/h100-serving-estimator)** — GPU time per request, studied across 91 published vLLM runs.
+5. **[SmolLM2 conformance](https://github.com/SamMausberg/smollm2-cpu-conformance)** — CPU numerical checks for full-sequence and KV-cache inference.
+6. **[B200 kernels](https://github.com/SamMausberg/sol-execbench-b200-kernels)** — CUDA C++ and CuTe DSL implementations for SOL-ExecBench.
 
-## Contact
+I also worked with Professor [Tor Aamodt](https://ece.ubc.ca/tor-aaamodt/) at UBC ECE on GPU architecture modeling in GPGPU-Sim.
 
-[findtensor.com](https://findtensor.com) · [LinkedIn](https://www.linkedin.com/in/sam-mausberg) · [Email](mailto:samuelmausberg@gmail.com)
+[Lean formalizations](https://github.com/SamMausberg/lean-formalizations): work on Erdős problems 119 and 885 in Lean 4 and mathlib.
+
+## Books
+
+*The Book of the New Sun* is my favorite. I love miserable books.
+
+> Everything was a relic. All the world was a relic.
+
+<details>
+<summary>A favorite passage — Gene Wolfe, <i>The Citadel of the Autarch</i></summary>
+
+> What struck me on the beach–and it struck me indeed, so that I staggered as at a blow–was that if the Eternal Principle had rested in that curved thorn I had carried about my neck across so many leagues, and if it now rested in the new thorn (perhaps the same thorn) I had only now put there, then it might rest in everything, in every thorn in every bush, in every drop of water in the sea. The thorn was a sacred Claw because all thorns were sacred Claws; the sand in my boots was sacred sand because it came from a beach of sacred sand. The cenobites treasured up the relics of the sannyasins because the sannyasins had approached the Pancreator. But everything had approached and even touched the Pancreator, because everything had dropped from his hand. Everything was a relic. All the world was a relic. I drew off my boots, that had traveled with me so far, and threw them into the waves that I might not walk shod on holy ground.
+
+</details>
+
+- **Gene Wolfe:** *The Book of the Long Sun*, *The Book of the Short Sun*, *Peace*.
+- **José Donoso:** *The Obscene Bird of Night*.
+- **Sadegh Hedayat:** *The Blind Owl*.
+- **Samuel R. Delany:** *Dhalgren*.
+- **Thomas Pynchon:** *Gravity's Rainbow*.
+- **James Joyce:** *Ulysses*.
+- **Mikhail Bulgakov:** *The Master and Margarita*.
+- **Fernando Pessoa:** *The Book of Disquiet*.
+- **Marcel Proust:** *In Search of Lost Time*.
+- **Cormac McCarthy:** *Blood Meridian*.
+- **Vladimir Nabokov:** *Pale Fire*.
+
+---
+
+[FindTensor](https://findtensor.com) · [LinkedIn](https://www.linkedin.com/in/sam-mausberg) · [Email](mailto:samuelmausberg@gmail.com)
