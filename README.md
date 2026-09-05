@@ -4,13 +4,6 @@ GPU systems, compilers, and mathematics. Based in Vancouver.
 
 I'm building [FindTensor](https://findtensor.com), an experimental compiler and runtime for LLM inference.
 
-<p align="center">
-<a href="https://github.com/SamMausberg/KernelIndex" title="KernelIndex"><img src="assets/project-01.jpg" alt="1. KernelIndex — Matachin Tower" width="33%"></a><a href="https://github.com/SamMausberg/sol-execbench-b200-kernels" title="B200 kernels"><img src="assets/project-02.jpg" alt="2. B200 kernels — The serpent portrait" width="33%"></a><a href="https://github.com/SamMausberg/h100-serving-estimator" title="H100 serving estimator"><img src="assets/project-03.jpg" alt="3. H100 serving estimator — Combray in a cup of tea" width="33%"></a><br>
-<a href="https://github.com/SamMausberg/smollm2-cpu-conformance" title="SmolLM2 conformance"><img src="assets/project-04.jpg" alt="4. SmolLM2 conformance — All the world was a relic" width="33%"></a><a href="https://github.com/SamMausberg/tensor-parallel-reference" title="Tensor parallel reference"><img src="assets/project-05.jpg" alt="5. Tensor parallel reference — The serpent at the throat" width="33%"></a><a href="https://github.com/SamMausberg/flashinfer" title="FlashInfer"><img src="assets/project-06.jpg" alt="6. FlashInfer — The courtyard of the Casa" width="33%"></a>
-</p>
-
-<sub>The pictures open repositories. Blender scenes from Wolfe, Proust, and Donoso; portrait after Sam Weber. <a href="art/README.md">Scenes &amp; source</a>.</sub>
-
 ## Work
 
 1. **[KernelIndex](https://github.com/SamMausberg/KernelIndex)** — A searchable index of GPU kernels and benchmark evidence.
@@ -24,18 +17,18 @@ I also worked with Professor [Tor Aamodt](https://ece.ubc.ca/tor-aaamodt/) at UB
 
 [Lean formalizations](https://github.com/SamMausberg/lean-formalizations): work on Erdős problems 119 and 885 in Lean 4 and mathlib.
 
-## Books
+<p align="center">
+<a href="https://github.com/SamMausberg/KernelIndex" title="KernelIndex"><img src="assets/project-01.jpg" alt="1. KernelIndex — Matachin Tower" width="33%"></a><a href="https://github.com/SamMausberg/sol-execbench-b200-kernels" title="B200 kernels"><img src="assets/project-02.jpg" alt="2. B200 kernels — The serpent portrait" width="33%"></a><a href="https://github.com/SamMausberg/h100-serving-estimator" title="H100 serving estimator"><img src="assets/project-03.jpg" alt="3. H100 serving estimator — Combray in a cup of tea" width="33%"></a><br>
+<a href="https://github.com/SamMausberg/smollm2-cpu-conformance" title="SmolLM2 conformance"><img src="assets/project-04.jpg" alt="4. SmolLM2 conformance — All the world was a relic" width="33%"></a><a href="https://github.com/SamMausberg/tensor-parallel-reference" title="Tensor parallel reference"><img src="assets/project-05.jpg" alt="5. Tensor parallel reference — The serpent at the throat" width="33%"></a><a href="https://github.com/SamMausberg/flashinfer" title="FlashInfer"><img src="assets/project-06.jpg" alt="6. FlashInfer — The courtyard of the Casa" width="33%"></a>
+</p>
+
+<sub>The pictures open repositories. Blender scenes from Wolfe, Proust, and Donoso; portrait after Sam Weber. <a href="art/README.md">Scenes &amp; source</a>.</sub>
+
+<details>
+<summary>Books</summary>
 
 *The Book of the New Sun* is my favorite. I love miserable books.
 
-> Everything was a relic. All the world was a relic.
-
-<details>
-<summary>A favorite passage — Gene Wolfe, <i>The Citadel of the Autarch</i></summary>
-
-> What struck me on the beach–and it struck me indeed, so that I staggered as at a blow–was that if the Eternal Principle had rested in that curved thorn I had carried about my neck across so many leagues, and if it now rested in the new thorn (perhaps the same thorn) I had only now put there, then it might rest in everything, in every thorn in every bush, in every drop of water in the sea. The thorn was a sacred Claw because all thorns were sacred Claws; the sand in my boots was sacred sand because it came from a beach of sacred sand. The cenobites treasured up the relics of the sannyasins because the sannyasins had approached the Pancreator. But everything had approached and even touched the Pancreator, because everything had dropped from his hand. Everything was a relic. All the world was a relic. I drew off my boots, that had traveled with me so far, and threw them into the waves that I might not walk shod on holy ground.
-
-</details>
 
 - **Gene Wolfe:** *The Book of the Long Sun*, *The Book of the Short Sun*, *Peace*.
 - **José Donoso:** *The Obscene Bird of Night*.
@@ -61,6 +54,8 @@ I also worked with Professor [Tor Aamodt](https://ece.ubc.ca/tor-aaamodt/) at UB
 - **Mercè Rodoreda:** *Death in Spring*.
 - **Carlos Fuentes:** *Terra Nostra*.
 - **Leonid Tsypkin:** *Summer in Baden-Baden*.
+
+</details>
 
 ---
 
