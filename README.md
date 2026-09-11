@@ -2,13 +2,13 @@
 
 GPU systems engineer focused on LLM inference, CUDA kernels and compilers. Based in Vancouver.
 
-[Email](mailto:samuelmausberg@gmail.com) · [LinkedIn](https://www.linkedin.com/in/sam-mausberg/) · [Request resume](mailto:samuelmausberg@gmail.com?subject=Resume%20request)
+[Email](mailto:samuelmausberg@gmail.com) · [LinkedIn](https://www.linkedin.com/in/sam-mausberg/)
 
 I'm building [FindTensor](https://findtensor.com), an experimental compiler and runtime for LLM inference in Rust, C++ and Python. Previously, I worked with Tor Aamodt at UBC on GPU architecture simulation.
 
 ## Open source
 
-I contribute to [FlashInfer](https://github.com/flashinfer-ai/flashinfer). My SM120 dispatch diagnostics and configuration API were [incorporated upstream](https://github.com/flashinfer-ai/flashinfer/pull/4802). I also reported and reproduced an [FP8 KV calibration bug](https://github.com/flashinfer-ai/flashinfer/pull/4984) that was fixed upstream.
+I've contributed code and bug reports to [FlashInfer](https://github.com/flashinfer-ai/flashinfer). My SM120 dispatch diagnostics and configuration API were [incorporated upstream](https://github.com/flashinfer-ai/flashinfer/pull/4802). I also reported and reproduced an [FP8 KV calibration bug](https://github.com/flashinfer-ai/flashinfer/pull/4984) that was fixed upstream.
 
 Open PRs cover [Hopper MLA decode](https://github.com/flashinfer-ai/flashinfer/pull/4906), [FP8 prefill](https://github.com/flashinfer-ai/flashinfer/pull/4977), [attention output transforms](https://github.com/flashinfer-ai/flashinfer/pull/5098) and [ALiBi for tensor parallelism](https://github.com/flashinfer-ai/flashinfer/pull/5101).
 
