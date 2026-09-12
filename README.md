@@ -19,5 +19,3 @@ Open PRs cover [Hopper MLA decode](https://github.com/flashinfer-ai/flashinfer/p
 - **[H100 serving estimator](https://github.com/SamMausberg/h100-serving-estimator)**: GPU time per request modeled from 91 published vLLM runs on two H100s, with held-out evaluation.
 - **[SmolLM2 conformance](https://github.com/SamMausberg/smollm2-cpu-conformance)**: CPU implementations of full-sequence and KV-cache inference, with 48 numerical conformance cases.
 - **[Tensor parallel reference](https://github.com/SamMausberg/tensor-parallel-reference)**: A CPU decoder block across 1, 2 and 4 worker processes, with numerical checks and 96 fault-injection cases.
-
-I also work on [continual learning](https://github.com/SamMausberg/witness-cl) and [learning theory with supporting Lean proofs](https://github.com/SamMausberg/sq-dimension-research).
