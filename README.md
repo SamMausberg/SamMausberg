@@ -21,7 +21,7 @@ I'm building [FindTensor](https://findtensor.com), an experimental compiler and 
 
 ## Research
 
-- **[The Work a Verifier Needs](https://github.com/SamMausberg/verified-progress)**: Certified output-head decisions and speculative-verification experiments on Qwen3.5-4B in SGLang on GH200. The paper reports modest gains at low concurrency, regressions elsewhere and failed attempts to reuse a drafter's head summaries.
+- **[The Work a Verifier Needs](https://github.com/SamMausberg/verified-progress)**: Certified output-head decisions and speculative-verification experiments on Qwen3.5-4B in SGLang on GH200. Includes a low-precision head with selective re-scoring and fallback to the stock kernel, Lean proofs for decision logic, and serving measurements across concurrency levels.
 - **[StateCut](https://github.com/SamMausberg/statecut)**: Exact-reference attention certificates and persistent decoder-state writes, with scoped Lean proofs and GH200 experiments. Pretrained attention acceleration and equivalence to a deployed backend remain open.
 - **[Contracted moment kernels](https://github.com/SamMausberg/contracted-moment-kernels)**: Moment summaries for certifying attention outputs, combining real-arithmetic proofs, exact-rational checks and CUDA experiments. The measured full pipeline remains slower than fused dense attention.
 - **[Witness-CL](https://github.com/SamMausberg/witness-cl)**: Online executable memory for SQL agents, using delayed corroboration and replayable memory transitions. The implementation and development studies are public; the intended confirmatory efficacy claim is not established.
