@@ -29,8 +29,6 @@ I'm building [FindTensor](https://findtensor.com), an experimental compiler and 
 - **[Memory return in quantum machines](https://github.com/SamMausberg/returning-constructor)**: A manuscript on repeated quantum transformations and memory reuse, with written proofs, exact finite checks, certified figure data and a partial Lean formalization. It has not yet been peer reviewed.
 - **[Lean formalizations](https://github.com/SamMausberg/lean-formalizations)**: Formal models and proof development for Erdős problems in Lean 4 and mathlib. The workspace includes unfinished conjecture statements.
 
-I use AI tools in research and implementation. The research repositories document that assistance and distinguish written proofs, compiled Lean results and empirical checks.
-
 ## Upstream contributions
 
 - **FlashInfer**: My SM120 dispatch diagnostics and configuration API were [incorporated upstream](https://github.com/flashinfer-ai/flashinfer/pull/4802). My [fix for unrouted expert IDs in SM12x fused MoE](https://github.com/flashinfer-ai/flashinfer/pull/5451) was merged. I also reported and reproduced an [FP8 KV calibration bug](https://github.com/flashinfer-ai/flashinfer/pull/4984) that was fixed upstream. Further attention, GEMM, sampling and MoE work is in [open PRs](https://github.com/flashinfer-ai/flashinfer/pulls?q=is%3Apr+is%3Aopen+author%3ASamMausberg).
