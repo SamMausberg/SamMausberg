@@ -9,6 +9,7 @@ Previously, I worked with Tor Aamodt at UBC on GPU architecture simulation.
 ## Research
 
 - [**The Work a Verifier Needs**](https://github.com/SamMausberg/verified-progress): Preprint on certified output-head decisions and speculative verification, studied on Qwen3.5-4B in SGLang on one GH200. Serving measurements and Lean proofs under stated rounding-error assumptions.
+- [**A reachable-state separation between attention compression and its certificates**](https://github.com/SamMausberg/attention-reachable-public-replay): Manuscript with exact witnesses and SmolLM2-135M replay data, scoped to a specified certificate class. The dense control is faster.
 - [**SQ learning and dimension complexity**](https://github.com/SamMausberg/sq-dimension-research): Manuscript on the separation between distribution-independent SQ learning and dimension complexity, with experiments and supporting Lean lemmas.
 - [**Memory return in quantum machines**](https://github.com/SamMausberg/returning-constructor): Manuscript on repeated quantum transformations and memory reuse, with written proofs, exact finite checks and partial Lean formalization. Not yet peer reviewed.
 - [**Lean formalizations**](https://github.com/SamMausberg/lean-formalizations): Erdős problems in Lean 4 and mathlib, including unfinished conjecture statements.
