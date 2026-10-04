@@ -2,7 +2,7 @@
 
 I'm based in Vancouver, where I work on GPU systems and compilers for language models. I'm building [FindTensor](https://findtensor.com), an experimental compiler and runtime. Previously, I worked with Tor Aamodt at UBC on GPU architecture simulation.
 
-[Email](mailto:samuelmausberg@gmail.com) · [LinkedIn](https://www.linkedin.com/in/sam-mausberg/)
+[Email](mailto:samuelmausberg@gmail.com) · [LinkedIn](https://www.linkedin.com/in/sam-mausberg/) · [ORCID](https://orcid.org/0009-0006-1091-8044)
 
 ## Research
 
