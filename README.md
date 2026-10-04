@@ -12,6 +12,9 @@ Manuscripts, with code and supporting material:
 - [A reachable-state separation between attention compression and its certificates](https://github.com/SamMausberg/attention-reachable-public-replay)
 - [SQ learning and dimension complexity](https://github.com/SamMausberg/sq-dimension-research)
 - [Memory return in quantum machines](https://github.com/SamMausberg/returning-constructor)
+- [Mechanical mediation through shared apparatus in gravitational-entanglement experiments](https://github.com/SamMausberg/mechanical-mediation)
+- [From information tasks to exclusivity and Bell bounds](https://github.com/SamMausberg/information-tasks-bell-bounds)
+- [Comparison, coherence and the stability of constructor entropy](https://github.com/SamMausberg/constructor-entropy)
 
 I also study [Erdős problems in Lean](https://github.com/SamMausberg/lean-formalizations).
 
