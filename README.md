@@ -32,8 +32,9 @@ I work on GPU inference, kernels and compilers in Vancouver. I built [FindTensor
 
 Independent preprints and manuscripts, with supporting code and selected Lean proofs.
 
-- **Attention:** [exact attention I/O bounds](https://github.com/SamMausberg/exact-attention-io-lower-bound), [near-linear attention in 3D](https://github.com/SamMausberg/near-linear-attention-3d) and [reachable-state certificates](https://github.com/SamMausberg/attention-reachable-public-replay).
-- **Learning:** [SQ learning and dimension complexity](https://github.com/SamMausberg/sq-dimension-research) and [bounded-time logistic SGD](https://github.com/SamMausberg/gaussian-sgd-ordinary).
+- **Attention:** [exact attention I/O bounds](https://github.com/SamMausberg/exact-attention-io-lower-bound), [near-linear attention in 3D](https://github.com/SamMausberg/near-linear-attention-3d), [reachable-state certificates](https://github.com/SamMausberg/attention-reachable-public-replay) and [exact neural sampling](https://github.com/SamMausberg/exact-sampling-networks).
+- **Learning:** [SQ learning and dimension complexity](https://github.com/SamMausberg/sq-dimension-research), [bounded-time logistic SGD](https://github.com/SamMausberg/gaussian-sgd-ordinary) and [low-logit-rank distributions](https://github.com/SamMausberg/low-logit-rank-distillation).
+- **Inference:** [certified int8 output heads](https://github.com/SamMausberg/verified-progress).
 - **Privacy:** [adaptive shuffled Gaussian accounting](https://github.com/SamMausberg/adaptive-shuffled-gaussian-accounting).
 - **Physics:** [memory return](https://github.com/SamMausberg/returning-constructor), [mechanical mediation](https://github.com/SamMausberg/mechanical-mediation), [information tasks and Bell bounds](https://github.com/SamMausberg/information-tasks-bell-bounds) and [constructor entropy](https://github.com/SamMausberg/constructor-entropy).
 - **Lean:** [Erdős problems](https://github.com/SamMausberg/lean-formalizations).
