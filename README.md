@@ -1,13 +1,13 @@
 # Sam Mausberg
 
-I work on GPU inference, kernels and compilers in Vancouver. I built [FindTensor](https://findtensor.com), an experimental LLM compiler and runtime, with Claude Code and Codex agents working to my design. I previously researched GPU architecture with Tor Aamodt at UBC. I'm looking for a full-time engineering role.
+I work on GPU inference, kernels and compilers in Vancouver. I built [FindTensor](https://findtensor.com), an experimental compiler and runtime, and previously researched GPU architecture with Tor Aamodt at UBC. I'm looking for a full-time engineering role.
 
 [Website](https://sammausberg.com) · [Email](mailto:samuelmausberg@gmail.com) · [LinkedIn](https://www.linkedin.com/in/sam-mausberg/) · [ORCID](https://orcid.org/0009-0006-1091-8044)
 
 ## Selected work
 
-- [CAIRN](https://github.com/SamMausberg/cairn): experimental CPU/GPU language and compiler, with ownership checks and kernel validation. Claude Code agents wrote most of the code to my design. Its first GH200 run turned up an NVVM 7.0.1 loop-exit miscompile, reduced to 8 lines with a workaround in [#164](https://github.com/SamMausberg/cairn/pull/164).
-- [The Work a Verifier Needs](https://github.com/SamMausberg/verified-progress): SGLang inference optimizations and int8 output-head screening, measured on GH200. In DFlash speculative decoding of Qwen3.5-4B, verifying draft blocks without per-position state snapshots, narrowing the verify tiles and enabling FlashAttention 4 raised per-request output 8.4–9.3% at 1–4 concurrent requests and throughput 12.4–13.7% at 8–32, over tuned stock SGLang. AI-assisted.
+- [CAIRN](https://github.com/SamMausberg/cairn): experimental CPU/GPU language and compiler, with ownership checks and kernel validation. Its first GH200 run turned up an NVVM 7.0.1 loop-exit miscompile, reduced to 8 lines with a workaround in [#164](https://github.com/SamMausberg/cairn/pull/164).
+- [The Work a Verifier Needs](https://github.com/SamMausberg/verified-progress): SGLang inference optimizations and int8 output-head screening, measured on GH200. In DFlash speculative decoding of Qwen3.5-4B, verifying draft blocks without per-position state snapshots, narrowing the verify tiles and enabling FlashAttention 4 raised per-request output 8.4–9.3% at 1–4 concurrent requests and throughput 12.4–13.7% at 8–32, over tuned stock SGLang.
 - [B200 kernels](https://github.com/SamMausberg/sol-execbench-b200-kernels): official NVIDIA SOL-ExecBench v1.1 evaluations, with geometric-mean speedups over NVIDIA's agent-optimized scoring baseline of [2.94×](https://research.nvidia.com/benchmarks/sol-execbench/submission/41305) on Hyena convolution/gating, [2.52×](https://research.nvidia.com/benchmarks/sol-execbench/submission/36921) on linear/GELU/GRN/linear, [1.52×](https://research.nvidia.com/benchmarks/sol-execbench/submission/42805) on QKV projection/GQA reshape and [1.27×](https://research.nvidia.com/benchmarks/sol-execbench/submission/36700) on FP8 gate/up projection.
 - [Command A+ benchmarks](https://github.com/SamMausberg/capp-vllm-bench): on two H100s, giving the KV cache the memory vLLM left unused raised KV capacity 1.79× and end-to-end output throughput 4–34% at each context's largest batch (25–82% in steady-state decode), on random-token workloads.
 
