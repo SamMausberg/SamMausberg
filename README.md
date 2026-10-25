@@ -7,7 +7,7 @@
 
 - [CAIRN](https://github.com/SamMausberg/cairn): An experimental language and compiler for CPUs and GPUs.
 - [The Work a Verifier Needs](https://github.com/SamMausberg/verified-progress): Experiments with SGLang inference and output-head screening.
-- [B200 kernels](https://github.com/SamMausberg/sol-execbench-b200-kernels): CUDA, CuTe DSL and Triton kernels for SOL-ExecBench.
+- [B200 kernels](https://sammausberg.com/#projects): CUDA, CuTe DSL and Triton kernels for SOL-ExecBench.
 - [Command A+ benchmarks](https://github.com/SamMausberg/capp-vllm-bench): Inference benchmarks on two H100s.
 
 </details>
