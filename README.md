@@ -1,29 +1,36 @@
-**Sam Mausberg**
+# Sam Mausberg
 
 [Website](https://sammausberg.com) · [Email](mailto:samuelmausberg@gmail.com) · [LinkedIn](https://www.linkedin.com/in/sam-mausberg/) · [ORCID](https://orcid.org/0009-0006-1091-8044)
 
 <details>
-<summary>Projects</summary>
+<summary><strong>Projects</strong></summary>
 
 - [CAIRN](https://github.com/SamMausberg/cairn): An experimental language and compiler for CPUs and GPUs.
+
 - [The Work a Verifier Needs](https://github.com/SamMausberg/verified-progress): Experiments with SGLang inference and output-head screening.
+
 - [B200 kernels](https://sammausberg.com/#projects): CUDA, CuTe DSL and Triton kernels for SOL-ExecBench.
+
 - [Command A+ benchmarks](https://github.com/SamMausberg/capp-vllm-bench): Inference benchmarks on two H100s.
 
 </details>
 
 <details>
-<summary>Open source</summary>
+<summary><strong>Open source</strong></summary>
 
 - [FlashInfer](https://github.com/flashinfer-ai/flashinfer/pull/5451): A fix for MoE padding under CUDA graphs.
+
 - [NVIDIA CCCL](https://github.com/NVIDIA/cccl/pull/11587): Execution-environment support for CUB merge sort.
+
 - [Accel-Sim](https://github.com/accel-sim/Dockerfile/pull/11): An Ubuntu and CUDA container update.
 
 </details>
 
 <details>
-<summary>Research</summary>
+<summary><strong>Research</strong></summary>
 
-Independent preprints on attention, learning theory and physics are on my [website](https://sammausberg.com). I also keep [Lean formalizations](https://github.com/SamMausberg/lean-formalizations), which are work in progress.
+- [Preprints](https://sammausberg.com/#research): Attention, learning theory and physics.
+
+- [Lean formalizations](https://github.com/SamMausberg/lean-formalizations): Work in progress.
 
 </details>
